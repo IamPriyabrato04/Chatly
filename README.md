@@ -33,22 +33,17 @@ Chatly is a real-time chat application built with the MERN stack (MongoDB, Expre
    npm install
    ```
 
-   - Create an `.env` file with your MongoDB connection string and JWT secret:
-     ```
-     MONGO_URI=your_mongodb_connection_string
-     JWT_SECRET=your_jwt_secret
-     ```
 
    - Start the backend server:
      ```bash
-     npm run dev
+     npm start
      ```
 
 3. **Set Up the Frontend:**
    ```bash
    cd ../frontend
    npm install
-   npm start
+   npm run dev
    ```
 
 4. **Access the App:** Open `http://localhost:3000` in your browser.
